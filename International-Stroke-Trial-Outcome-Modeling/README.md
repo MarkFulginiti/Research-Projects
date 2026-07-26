@@ -28,7 +28,7 @@ All preprocessing, including numeric standardization and categorical encoding, i
   - neural network
 - Balanced accuracy as the primary model-selection criterion:
 
-$$\text{Balanced Accuracy}= \frac{\text{Sensitivity}+\text{Specificity}}{2}=m\frac{1}{2}\left(\frac{TP}{TP+FN}+ \frac{TN}{TN+FP}\right)$$
+$$\text{Balanced Accuracy}= \frac{\text{Sensitivity}+\text{Specificity}}{2}= \frac{1}{2}\left(\frac{TP}{TP+FN}+ \frac{TN}{TN+FP}\right)$$
 
 - ROC-AUC as the secondary measure of discrimination
 - Held-out evaluation using accuracy, balanced accuracy, ROC-AUC, precision, recall, and F1 score
