@@ -15,11 +15,7 @@ A shared, leakage-resistant pipeline was applied separately to each outcome. Pre
 - Five-fold cross-validation and grid-search tuning
 - Balanced accuracy as the primary selection criterion:
 
-$$
-\text{Balanced Accuracy}
-=
-\frac{\text{Sensitivity}+\text{Specificity}}{2}
-$$
+$$\text{Balanced Accuracy}=\frac{\text{Sensitivity}+\text{Specificity}}{2}$$
 
 - Held-out discrimination, classification, calibration, and overfitting assessment
 - Logistic-regression odds ratios and permutation importance
