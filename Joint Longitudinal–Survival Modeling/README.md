@@ -3,6 +3,11 @@
 
 This paper develops and evaluates a shared-parameter joint model linking a longitudinal internal covariate process to a time-to-event outcome through shared random effects.
 
+**Project files**
+
+- **[View the complete paper](./A-Joint-Model-Framework-for-Longitudinal-and-Survival-Analysis%20copy%202.pdf)**
+- **[View the R analysis code](./A%20Joint%20Model%20Framework%20for%20Longitudinal%20and%20Survival%20Analysis.Rmd)**
+
 ### Overview
 The work derives the full joint likelihood for a linear mixed-effects longitudinal model coupled with a transformation survival model, encompassing proportional hazards, proportional odds, and Box–Cox families as special cases. Estimation is performed via maximum likelihood using an EM algorithm that integrates over subject-specific random effects.
 
