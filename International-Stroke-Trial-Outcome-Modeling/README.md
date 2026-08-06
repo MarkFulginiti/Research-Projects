@@ -3,6 +3,8 @@
 
 This project develops and evaluates a shared machine-learning framework for predicting three six-month outcomes after acute ischemic stroke using data from the International Stroke Trial.
 
+**[View the complete analysis notebook](./IST_Six_Month_Outcome_Modeling_Pipeline_20260726.ipynb)**
+
 ### Overview
 
 The analysis compares six classification methods across six-month mortality, dependency, and recovery using a common predictor set and evaluation framework. Outcome-specific datasets are created by excluding only observations missing the selected outcome.
