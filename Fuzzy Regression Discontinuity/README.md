@@ -3,6 +3,12 @@
 
 This paper presents a simulation-based evaluation of fuzzy regression discontinuity (RD) estimators, with emphasis on finite-sample behavior, weak compliance, and local instrumental-variable identification.
 
+**Project files**
+
+- **[View the complete paper](./Fuzzy-RDD-final%20copy%202.pdf)**
+- **[View the Python simulation code](./Fuzzy%20RDD%20Simulation_1.ipynb)**
+- **[View the R analysis code](./Fuzzy%20RDD%20final.Rmd)**
+
 ### Overview
 The study investigates how fuzzy RD estimators perform when treatment take-up changes only probabilistically at the cutoff. Using a controlled data-generating process, the analysis isolates the effects of first-stage strength, outcome curvature, smooth confounding, and treatment-effect heterogeneity on estimator bias, variance, and inference.
 
